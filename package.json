@@ -34,7 +34,7 @@
     "sinon": "^7.5.0"
   },
   "scripts": {
-    "build": "babel -d lib/ src/",
+    "build": "babel -D -d lib/ src/",
     "prepare": "npm run build",
     "prepublish": "npm run build",
     "lint": "eslint src test examples --fix",
