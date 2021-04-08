@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function filters(config) {
   return {
@@ -9,4 +9,4 @@ function filters(config) {
   };
 }
 
-module.exports = filters;
+export default filters;

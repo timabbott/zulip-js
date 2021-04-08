@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function server(config) {
   return {
@@ -9,4 +9,4 @@ function server(config) {
   };
 }
 
-module.exports = server;
+export default server;

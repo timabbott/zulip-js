@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function events(config) {
   return {
@@ -9,4 +9,4 @@ function events(config) {
   };
 }
 
-module.exports = events;
+export default events;

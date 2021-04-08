@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function messages(config) {
   const baseURL = `${config.apiURL}/messages`;
@@ -71,4 +71,4 @@ function messages(config) {
   };
 }
 
-module.exports = messages;
+export default messages;

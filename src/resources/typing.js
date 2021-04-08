@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function typing(config) {
   return {
@@ -13,4 +13,4 @@ function typing(config) {
   };
 }
 
-module.exports = typing;
+export default typing;

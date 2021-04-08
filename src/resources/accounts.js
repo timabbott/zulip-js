@@ -1,4 +1,4 @@
-const helper = require('../helper');
+import helper from '../helper';
 
 function accounts(config) {
   return {
@@ -16,4 +16,4 @@ function accounts(config) {
   };
 }
 
-module.exports = accounts;
+export default accounts;

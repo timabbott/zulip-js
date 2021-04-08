@@ -1,7 +1,7 @@
-const fetch = require('isomorphic-fetch');
-const FormData = require('isomorphic-form-data');
+import fetch from 'isomorphic-fetch';
+import FormData from 'isomorphic-form-data';
 
-module.exports = {
+export default {
   fetch,
   FormData,
 };

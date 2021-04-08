@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function emojis(config) {
   return {
@@ -9,4 +9,4 @@ function emojis(config) {
   };
 }
 
-module.exports = emojis;
+export default emojis;

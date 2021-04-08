@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function reactions(config) {
   const url = (messageID) => `${config.apiURL}/messages/${messageID}/reactions`;
@@ -13,4 +13,4 @@ function reactions(config) {
   };
 }
 
-module.exports = reactions;
+export default reactions;

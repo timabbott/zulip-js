@@ -1,4 +1,4 @@
-const helper = require('./helper');
+import helper from './helper';
 
 async function api(baseUrl, config, method, params) {
   const url = new URL(baseUrl);
@@ -45,4 +45,4 @@ async function api(baseUrl, config, method, params) {
   }
 }
 
-module.exports = api;
+export default api;

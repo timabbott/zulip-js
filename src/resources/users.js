@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function users(config) {
   return {
@@ -45,4 +45,4 @@ function users(config) {
   };
 }
 
-module.exports = users;
+export default users;

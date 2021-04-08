@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function queues(config) {
   return {
@@ -17,4 +17,4 @@ function queues(config) {
   };
 }
 
-module.exports = queues;
+export default queues;

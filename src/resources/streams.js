@@ -1,4 +1,4 @@
-const api = require('../api');
+import api from '../api';
 
 function streams(config) {
   return {
@@ -35,4 +35,4 @@ function streams(config) {
   };
 }
 
-module.exports = streams;
+export default streams;

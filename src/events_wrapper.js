@@ -1,5 +1,5 @@
-const queues = require('./resources/queues');
-const events = require('./resources/events');
+import queues from './resources/queues';
+import events from './resources/events';
 
 function sleep(ms) {
   // TODO add jitter.
@@ -72,4 +72,4 @@ function eventsWrapper(config) {
   return callOnEachEvent;
 }
 
-module.exports = eventsWrapper;
+export default eventsWrapper;
